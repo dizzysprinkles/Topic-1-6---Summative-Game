@@ -30,6 +30,7 @@
             die2 = new Die();
             round = 1;
             
+            // NEED TO APPLY BET THINGS FROM WEBSITE (ie double bet, 1/2 bet, etc)
             Console.WriteLine("Hello and Welcome to Casino Italiano! Here you can bet on the outcome of two dice. \nPlease wait for the game to begin...");
             Thread.Sleep(4000);
             while (!done)
