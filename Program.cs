@@ -78,7 +78,7 @@
                     while (!Double.TryParse(Console.ReadLine(), out bet) || bet > accountBalance || bet < 0 || bet == 0)
                     {
                         Console.ForegroundColor = ConsoleColor.DarkCyan;
-                        Console.WriteLine($"Incorrect bet. Please try again. You can only bet between $1.00 and {accountBalance.ToString("C")}.");
+                        Console.WriteLine($"Incorrect bet. Please try again. You can only bet between $0.01 and {accountBalance.ToString("C")}.");
                         Console.ForegroundColor = ConsoleColor.White;
                     }
 
