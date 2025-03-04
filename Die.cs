@@ -56,52 +56,52 @@ namespace Topic_1_6____Summative_Game
         {
             if (_roll == 1)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|   |");
-                Console.WriteLine("| o |");
-                Console.WriteLine("|   |");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("|     |");
+                Console.WriteLine("|  o  |");
+                Console.WriteLine("|     |");
+                Console.WriteLine("-------");
             }
             else if (_roll == 2)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|o  |");
-                Console.WriteLine("|   |");
-                Console.WriteLine("|  o|");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("| o   |");
+                Console.WriteLine("|     |");
+                Console.WriteLine("|   o |");
+                Console.WriteLine("-------");
             }
             else if (_roll == 3)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|o  |");
-                Console.WriteLine("| o |");
-                Console.WriteLine("|  o|");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("| o   |");
+                Console.WriteLine("|  o  |");
+                Console.WriteLine("|   o |");
+                Console.WriteLine("-------");
             }
             else if (_roll == 4)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("|   |");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("|     |");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("-------");
             }
             else if (_roll == 5)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("| o |");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("|  o  |");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("-------");
 
             }
             else if (_roll == 6)
             {
-                Console.WriteLine("-----");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("|o o|");
-                Console.WriteLine("-----");
+                Console.WriteLine("-------");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("| o o |");
+                Console.WriteLine("-------");
             }
         }
     }
