@@ -34,7 +34,7 @@
             
 
             Console.WriteLine("Hello and Welcome to Casino Italiano! Here you can bet on the outcome of two dice. \nPlease wait for the game to begin...");
-            Thread.Sleep(4000);
+            Thread.Sleep(4500);
             while (!done)
             {
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
