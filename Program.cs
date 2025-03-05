@@ -1,8 +1,7 @@
 ﻿namespace Topic_1_6____Summative_Game
 {
     internal class Program
-    {
-           
+    {  
         public static void Lose(double bet, double balance)
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -10,7 +9,6 @@
             Console.WriteLine($"You bet {bet.ToString("C")} and lost it!");
             Console.WriteLine($"Your new balance is {balance.ToString("C")}. ");
         }
-
         public static void Win(double bet, double balance, string winnings)
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
