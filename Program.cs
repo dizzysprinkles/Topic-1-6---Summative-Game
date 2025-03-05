@@ -80,7 +80,6 @@
                         Thread.Sleep(2500);
                         done = true;
                     }
-
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -121,7 +120,6 @@
                                 Console.WriteLine("Press ENTER to move on to the next round! ");
                                 Console.ReadLine();
                             }
-
                         }
                         else if (choice == "2" || choice == "not doubles")
                         {
@@ -148,7 +146,6 @@
                                 Console.WriteLine("Press ENTER to move on to the next match! ");
                                 Console.ReadLine();
                             }
-
                         }
                         else if (choice == "3" || choice == "even sum")
                         {
@@ -201,7 +198,6 @@
                                 Console.WriteLine("Press ENTER to move on to the next round! ");
                                 Console.ReadLine();
                             }
-
                         }
                         else if (choice == "5" || choice == "sum of seven")
                         {
@@ -229,7 +225,6 @@
                                 Console.WriteLine("Press ENTER to move on to the next round! ");
                                 Console.ReadLine();
                             }
-
                         }
                         else
                         {
@@ -240,11 +235,8 @@
                             Console.WriteLine("Press ENTER to move on to the next round!");
                             Console.ReadLine();
                         }
-
                     }
-
                 }
-                
             }
         }
     }
